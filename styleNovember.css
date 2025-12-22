@@ -1,0 +1,47 @@
+.navbar {
+    background: linear-gradient(135deg, #F472B6, #EC4899);
+    height: 72px;
+    font-size: 28px;
+    box-shadow: 0 6px 16px rgba(236,72,153,0.35);
+}
+
+.home {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+}
+
+.home:hover {
+    background: rgba(255,255,255,0.25);
+    color: #4A044E;
+}
+
+
+.foto {
+    border-radius: 20px;
+}
+
+.footer {
+    background: linear-gradient(135deg, #BE185D, #9D174D);
+    color: #FCE7F3;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("ChatGPT\ Image\ Dec\ 21\,\ 2025\,\ 08_24_54\ PM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

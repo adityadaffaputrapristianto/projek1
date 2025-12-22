@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Untuk Kamu 🤍</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffd1dc, #ffe6ee);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* FLOATING SHAPES */
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.35);
+            animation: float 12s infinite ease-in-out;
+        }
+
+        .shape.small {
+            width: 60px;
+            height: 60px;
+        }
+
+        .shape.medium {
+            width: 100px;
+            height: 100px;
+        }
+
+        .shape.large {
+            width: 160px;
+            height: 160px;
+        }
+
+        .shape.one {
+            top: 10%;
+            left: 15%;
+        }
+
+        .shape.two {
+            top: 70%;
+            left: 10%;
+            animation-delay: 2s;
+        }
+
+        .shape.three {
+            top: 20%;
+            right: 15%;
+            animation-delay: 4s;
+        }
+
+        .shape.four {
+            bottom: 10%;
+            right: 20%;
+            animation-delay: 6s;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        /* WELCOME CARD */
+        .welcome-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 40px 35px;
+            border-radius: 24px;
+            max-width: 420px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.2s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .welcome-card h1 {
+            color: #e75480;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+
+        .welcome-card p {
+            color: #555;
+            line-height: 1.7;
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        .welcome-card button {
+            padding: 12px 28px;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #ff7aa2, #ff9ebc);
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .welcome-card button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(255, 122, 162, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- FLOATING ELEMENTS -->
+    <div class="shape small one"></div>
+    <div class="shape medium two"></div>
+    <div class="shape large three"></div>
+    <div class="shape small four"></div>
+
+    <!-- WELCOME CONTENT -->
+    <div class="welcome-card">
+        <h1>Halooo Ciayyy 🤍</h1>
+        <p>
+            Sebelum tahun ini berakhir, aku mau berterima kasih banget sama kamu
+            karena kita udah melewati satu tahun yang penuh cerita dan kebahagiaan.
+            <br><br>
+            Aku bikin website ini supaya kita selalu bisa mengingat
+            semua hal kecil dan besar yang sudah kita lewati bersama.
+            <br><br>
+            Semoga kamu suka yaa, enjoyy 🤍
+        </p>
+
+        <a href="home.html">
+            <button>Masuk</button>
+        </a>
+    </div>
+
+</body>
+</html>

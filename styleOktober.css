@@ -1,0 +1,72 @@
+.navbar {
+    background: linear-gradient(
+        90deg,
+        #4A6FA5,
+        #5F85C3
+    );
+    padding: 14px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    height: 80px;
+    font-size: 30px;
+}
+
+.navbar .home {
+    color: #F8FAFF;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.navbar .home:hover {
+    color: #DDE8FF;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+
+.foto1 {
+    border-radius: 20px;
+}
+
+.foto2 {
+    border-radius: 20px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("bgbiru.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5 {
+    color: #FFFFFF;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.35);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+.footer {
+    background: linear-gradient(
+        135deg,
+        #1E3A8A,
+        #2563EB
+    );
+    color: #E0F2FE;
+    text-align: center;
+    padding: 22px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: 0 -6px 20px rgba(30, 58, 138, 0.35);
+}
+

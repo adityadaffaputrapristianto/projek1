@@ -1,0 +1,143 @@
+.container {
+    padding-top: 80px; 
+}
+
+.navbar {
+  background: linear-gradient(to right, #fd6f97, #FF8FAB);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  color: #f0adc1 !important;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bi {
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+  color: #FFE4EC;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+        background-color: rgb(233, 70, 100);
+        border-radius: 20px;
+        color: white;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #FFB6C1,
+    #FFE4EC
+  );
+}
+
+
+
+
+
+#carouselExample img {
+    width: 300px;
+    height: 400px;         
+    object-fit: cover;     
+    border-radius: 10px;   
+}
+
+#carouselExample:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+    filter: brightness(1.1);    
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+#carouselExamplee img {
+    width: 300px;
+    height: 400px;         
+    object-fit: cover;     
+    border-radius: 10px;
+}
+
+
+#carouselExamplee:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+    filter: brightness(1.1);    
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+
+#carouselExampleee img {
+    width: 300px;
+    height: 400px;         
+    object-fit: cover;     
+    border-radius: 10px;
+}
+
+#carouselExampleee:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+    filter: brightness(1.1);    
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.tekss {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    font-size: 30px;
+}
+
+.teksOverlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.teksIsiAwalJanuari {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teksPertengahanJanuari {
+    display: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.teksAkhirJanuari {
+     text-align: left;
+    justify-content: stretch;
+}
+
+.posisi-carousel {
+    position: relative;
+}
+
+
+
+.footer {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

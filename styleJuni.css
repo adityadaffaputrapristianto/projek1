@@ -1,0 +1,269 @@
+.navbar {
+    background: linear-gradient(
+        to right,
+        #F6A5B5,
+        #FADADD
+    );
+    height: 70px;
+}
+
+.home {
+    color: #FFF5F7;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.home:hover {
+    background: #FFE4EC;
+    border-radius: 10px;
+    color:pink;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("ChatGPT\ Image\ Dec\ 21\,\ 2025\,\ 01_21_26\ PM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.foto1 {
+    width: 30rem;
+    height: 50rem;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.teks-samping1 {
+    margin-left: 20px;
+    max-width: 280px;
+
+    color: white;
+    background: pink;
+    font-family:'Times New Roman', Times, serif;
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-size: 20px;
+}
+
+.foto-wrap1 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.foto-wrap1:hover .teks-samping1 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.foto2 {
+    border-radius: 20px;
+}
+
+.teks-samping2 {
+    margin-right: 20px;
+    max-width: 280px;
+
+     color: white;
+    background: pink;
+    font-family:'Times New Roman', Times, serif;
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-size: 20px;
+}
+
+.foto-wrap2 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+}
+
+
+.foto-wrap2:hover .teks-samping2 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+.foto3 {
+    width: auto;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-left: 210px;
+}
+
+.teks-samping3 {
+    margin-left: 20px;
+    max-width: 300px;
+
+    color: white;
+    background: rgb(238, 119, 139);
+    font-family:'Times New Roman', Times, serif;
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-size: 20px;
+}
+
+.foto-wrap3 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.foto-wrap3:hover .teks-samping3 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.foto4 {
+    border-radius: 20px;
+}
+
+.teks-samping4 {
+    margin-right: 20px;
+    max-width: 280px;
+
+    color: white;
+    background: pink;
+    font-family:'Times New Roman', Times, serif;
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-size: 20px;
+}
+
+.foto-wrap4 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+}
+
+
+.foto-wrap4:hover .teks-samping4 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.video5 {
+    width: auto;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-left: 6px;
+}
+
+.teks-samping5 {
+    margin-left: 20px;
+    max-width: 280px;
+
+     color: white;
+    background: rgb(238, 119, 139);
+    font-family:'Times New Roman', Times, serif;
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-size: 20px;
+}
+
+.foto-wrap5 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.foto-wrap5:hover .teks-samping5 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.video6 {
+    border-radius: 20px;
+    width: 600px;
+}
+
+.teks-samping6 {
+    margin-right: 20px;
+    max-width: 280px;
+
+    color: white;
+    background: rgb(238, 119, 139);
+    font-family:'Times New Roman', Times, serif;
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    font-size: 20px;
+}
+
+.foto-wrap6 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+}
+
+
+.foto-wrap6:hover .teks-samping6 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.footer {
+    background: linear-gradient(
+        to right,
+        #E989A6,
+        #F2B5C4
+    );
+    color: #FFF5F7;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}

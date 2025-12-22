@@ -1,0 +1,74 @@
+.navbar {
+    background: linear-gradient(135deg, #F472B6, #EC4899);
+    height: 72px;
+    font-size: 28px;
+    box-shadow: 0 6px 16px rgba(236,72,153,0.35);
+}
+
+.home {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+}
+
+.home:hover {
+    background: rgba(255,255,255,0.25);
+    color: #4A044E;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("ChatGPT\ Image\ Dec\ 21\,\ 2025\,\ 08_24_54\ PM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.foto1 {
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.foto2 {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.foto3 {
+    border-radius: 20px;
+}
+
+.foto4 {
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.foto5 {
+    width: 500px;
+    border-radius: 20px;
+    height: 380px;
+}
+
+.foto11 {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.teks-bg {
+    background-color: rgb(241, 113, 135); /* warna background */
+    color: white;              /* warna teks */
+    padding: 6px 12px;         /* jarak teks ke background */
+    display: inline-block;     /* biar bg cuma ngikut teks */
+    border-radius: 6px;   
+    font-size: 22px;     
+    font-family: 'Times New Roman', Times, serif;/* opsional: sudut membulat */
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Harapan Kita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #ffd1dc, #ffe6ee);
+        }
+
+        /* BACK HOME */
+        .back-home {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 8px 18px;
+            background: rgba(255, 255, 255, 0.85);
+            color: #e75480;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            transition: 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-home:hover {
+            background: #ff7aa2;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: #e75480;
+            margin-bottom: 25px;
+        }
+
+        .input-area {
+            max-width: 500px;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 15px;
+            border-radius: 18px;
+            border: none;
+            resize: none;
+            font-size: 14px;
+            outline: none;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        textarea::placeholder {
+            color: #b76e8a;
+        }
+
+        .save-btn {
+            margin-top: 18px;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(135deg, #ff7aa2, #ff9ebc);
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .save-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+        }
+
+        .cards {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            position: relative;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 22px;
+            font-size: 14px;
+            line-height: 1.6;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+            animation: fadeIn 0.4s ease;
+        }
+
+        .remove-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(255, 120, 150, 0.9);
+            border: none;
+            color: white;
+            font-size: 12px;
+            padding: 5px 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.25s ease;
+        }
+
+        .remove-btn:hover {
+            background: #ff4f87;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BACK BUTTON -->
+    <a href="index.html" class="back-home">← Home</a>
+
+    <h1>Tulis Harapan Kamu 💗</h1>
+
+    <div class="input-area">
+        <textarea id="harapanInput" placeholder="Tulis harapan kamu di sini..."></textarea>
+        <br>
+        <button class="save-btn" onclick="simpanHarapan()">Simpan</button>
+    </div>
+
+    <div class="cards" id="cardsContainer"></div>
+
+    <script>
+        const textarea = document.getElementById("harapanInput");
+        const cardsContainer = document.getElementById("cardsContainer");
+
+        function simpanHarapan() {
+            if
