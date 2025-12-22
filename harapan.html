@@ -158,4 +158,26 @@
         const cardsContainer = document.getElementById("cardsContainer");
 
         function simpanHarapan() {
-            if
+            if (textarea.value.trim() === "") return;
+
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const removeBtn = document.createElement("button");
+            removeBtn.className = "remove-btn";
+            removeBtn.innerText = "hapus";
+            removeBtn.onclick = () => card.remove();
+
+            const text = document.createElement("p");
+            text.innerText = textarea.value;
+
+            card.appendChild(removeBtn);
+            card.appendChild(text);
+            cardsContainer.appendChild(card);
+
+            textarea.value = "";
+        }
+    </script>
+
+</body>
+</html>
