@@ -1,0 +1,48 @@
+.navbar {
+    background: linear-gradient(to right, #fd6f97, #FF8FAB);
+    height: 70px;
+    font-size: 30px;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+
+.home:hover {
+    background: #FFE4EC;
+    border-radius: 10px;
+    color:pink;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("ChatGPT Image Dec 20, 2025, 02_52_22 AM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.foto2 {
+    height: 600px;
+    border-radius: 20px;
+}
+
+.foto1 {
+     height: 600px;
+     border-radius: 20px;
+}
+
+.foto3 {
+    border-radius: 20px;
+}
+
+.teks {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
